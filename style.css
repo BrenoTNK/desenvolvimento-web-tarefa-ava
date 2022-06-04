@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    border: 0;
+}
+
+    /*Header da página inicial*/
+header{
+    background-color: rgb(15, 79, 175);
+    padding: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+    /*Header para retornar na página inicial*/
+header h1, header h1 a:hover, header h1 a:active, header h1 a:link, header h1 a:visited{
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+    /*Gênios na página inicial*/
+
+main{
+    background-color: rgb(231, 231, 231);
+    color: #333;
+}
+
+main .genios{
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+main .genios li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+main .genios li:active{
+    border-color: #ffffff;    
+}
+
+main .genios li:hover h2{
+    font-size: 34px;
+}
+
+main .genios h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+main .genios img{
+    height: 20rem;
+}
+
+    /*Parte sobre o gênio em especifico*/
+main section{
+    text-align: center;
+}
+
+main section h2.nomeg{
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main section img{
+    width: 13rem;
+}
+
+main section p.paragrafo{
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+    /*Rodapé*/
+footer{
+    background-color: rgb(15, 79, 175);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding: 40px;
+    color: #ffffff;
+    bottom: 0;
+}
+
+footer p.copyright{
+    color: rgb(173, 173, 173);
+}
